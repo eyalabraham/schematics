@@ -1,0 +1,15 @@
+*********************************************************
+* schematics                                            *
+*                                                       *
+*    a repository that tracks the electronic schematics *
+*    I used in various projects.                        *
+*                                                       *
+*********************************************************
+
+balancing-robot
+pong
+pc-xt
+webserver
+nixie-clock
+
+my-components & my-footprints

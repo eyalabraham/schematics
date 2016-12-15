@@ -1,0 +1,186 @@
+v 20110115 2
+C 40000 40000 0 0 0 title-B.sym
+C 48700 48700 1 180 0 header26-1.sym
+{
+T 48100 43300 5 10 1 1 180 0 1
+refdes=J?
+T 47100 44000 5 10 0 0 180 0 1
+device=HEADER26
+}
+T 50000 40900 9 10 1 0 0 0 1
+IO Expansion Connector
+C 46500 48300 1 0 0 input-1.sym
+{
+T 46500 48600 5 10 0 0 0 0 1
+device=INPUT
+T 46600 48300 5 10 1 1 0 0 1
+value=/IOX1
+}
+C 46500 47900 1 0 0 input-1.sym
+{
+T 46500 48200 5 10 0 0 0 0 1
+device=INPUT
+T 46600 47900 5 10 1 1 0 0 1
+value=/IOX2
+}
+C 46500 47500 1 0 0 input-1.sym
+{
+T 46500 47800 5 10 0 0 0 0 1
+device=INPUT
+T 46600 47500 5 10 1 1 0 0 1
+value=/IOX3
+}
+C 46500 47100 1 0 0 input-1.sym
+{
+T 46500 47400 5 10 0 0 0 0 1
+device=INPUT
+T 46600 47100 5 10 1 1 0 0 1
+value=XA0
+}
+C 46500 46700 1 0 0 input-1.sym
+{
+T 46500 47000 5 10 0 0 0 0 1
+device=INPUT
+T 46600 46700 5 10 1 1 0 0 1
+value=XA1
+}
+C 46500 46300 1 0 0 input-1.sym
+{
+T 46500 46600 5 10 0 0 0 0 1
+device=INPUT
+T 46600 46300 5 10 1 1 0 0 1
+value=XA2
+}
+C 46500 45900 1 0 0 input-1.sym
+{
+T 46500 46200 5 10 0 0 0 0 1
+device=INPUT
+T 46600 45900 5 10 1 1 0 0 1
+value=/XIOR
+}
+C 46500 45500 1 0 0 input-1.sym
+{
+T 46500 45800 5 10 0 0 0 0 1
+device=INPUT
+T 46600 45500 5 10 1 1 0 0 1
+value=/XIOW
+}
+C 49500 48300 1 0 1 input-1.sym
+{
+T 49500 48600 5 10 0 0 0 6 1
+device=INPUT
+T 49400 48300 5 10 1 1 0 6 1
+value=XD0
+}
+C 49500 47900 1 0 1 input-1.sym
+{
+T 49500 48200 5 10 0 0 0 6 1
+device=INPUT
+T 49400 47900 5 10 1 1 0 6 1
+value=XD1
+}
+C 49500 47500 1 0 1 input-1.sym
+{
+T 49500 47800 5 10 0 0 0 6 1
+device=INPUT
+T 49400 47500 5 10 1 1 0 6 1
+value=XD2
+}
+C 49500 47100 1 0 1 input-1.sym
+{
+T 49500 47400 5 10 0 0 0 6 1
+device=INPUT
+T 49400 47100 5 10 1 1 0 6 1
+value=XD3
+}
+C 49500 46700 1 0 1 input-1.sym
+{
+T 49500 47000 5 10 0 0 0 6 1
+device=INPUT
+T 49400 46700 5 10 1 1 0 6 1
+value=XD4
+}
+C 49500 46300 1 0 1 input-1.sym
+{
+T 49500 46600 5 10 0 0 0 6 1
+device=INPUT
+T 49400 46300 5 10 1 1 0 6 1
+value=XD5
+}
+C 49500 45900 1 0 1 input-1.sym
+{
+T 49500 46200 5 10 0 0 0 6 1
+device=INPUT
+T 49400 45900 5 10 1 1 0 6 1
+value=XD6
+}
+C 49500 45500 1 0 1 input-1.sym
+{
+T 49500 45800 5 10 0 0 0 6 1
+device=INPUT
+T 49400 45500 5 10 1 1 0 6 1
+value=XD7
+}
+T 45000 48400 9 10 1 0 0 0 1
+$X308 - $X30F
+T 45000 48000 9 10 1 0 0 0 1
+$X310 - $X317
+T 45000 47600 9 10 1 0 0 0 1
+$X318 - $X31F
+T 50000 40400 9 10 1 0 0 0 1
+io-expansion.sch
+T 50000 40100 9 10 1 0 0 0 1
+9
+C 46500 45100 1 0 0 input-1.sym
+{
+T 46500 45400 5 10 0 0 0 0 1
+device=INPUT
+T 46600 45100 5 10 1 1 0 0 1
+value=RST
+}
+C 46500 44700 1 0 0 input-1.sym
+{
+T 46500 45000 5 10 0 0 0 0 1
+device=INPUT
+T 46600 44700 5 10 1 1 0 0 1
+value=IRQ?
+}
+C 49500 45100 1 0 1 input-1.sym
+{
+T 49500 45400 5 10 0 0 0 6 1
+device=INPUT
+T 49400 45100 5 10 1 1 0 6 1
+value=GND
+}
+C 49500 44700 1 0 1 input-1.sym
+{
+T 49500 45000 5 10 0 0 0 6 1
+device=INPUT
+T 49400 44700 5 10 1 1 0 6 1
+value=+5v
+}
+C 49500 44300 1 0 1 input-1.sym
+{
+T 49500 44600 5 10 0 0 0 6 1
+device=INPUT
+T 49400 44300 5 10 1 1 0 6 1
+value=-5v
+}
+C 49500 43900 1 0 1 input-1.sym
+{
+T 49500 44200 5 10 0 0 0 6 1
+device=INPUT
+T 49400 43900 5 10 1 1 0 6 1
+value=+12v
+}
+C 49500 43500 1 0 1 input-1.sym
+{
+T 49500 43800 5 10 0 0 0 6 1
+device=INPUT
+T 49400 43500 5 10 1 1 0 6 1
+value=-12v
+}
+T 53900 40400 9 10 1 0 0 0 1
+1     [October 5, 2014]
+T 53900 40100 9 10 1 0 0 0 1
+eyal abraham (c)
