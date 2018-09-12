@@ -1,0 +1,86 @@
+v 20130925 2
+T 3900 2700 8 10 1 1 0 6 1
+refdes=U?
+T 300 2450 5 10 0 0 0 0 1
+device=ATtiny85
+T 300 2650 5 10 0 0 0 0 1
+footprint=DIP8
+T 300 2850 5 10 0 0 0 0 1
+net=GND:4
+T 300 3050 5 10 0 0 0 0 1
+net=Vcc:8
+P 0 200 300 200 1 0 0
+{
+T 200 250 5 8 1 1 0 6 1
+pinnumber=1
+T 200 150 5 8 0 1 0 8 1
+pinseq=1
+T 350 200 9 8 1 1 0 0 1
+pinlabel=PB5 (\_Reset\_ ADC0 PCINT5 dWIRE)
+T 350 200 5 8 0 1 0 2 1
+pintype=io
+}
+P 4300 700 4000 700 1 0 0
+{
+T 4100 750 5 8 1 1 0 0 1
+pinnumber=3
+T 4100 650 5 8 0 1 0 2 1
+pinseq=2
+T 3950 700 9 8 1 1 0 6 1
+pinlabel=(XTAL2 PCINT4 CLKO OC1B ADC2) PB4
+T 3950 700 5 8 0 1 0 8 1
+pintype=io
+}
+P 4300 1100 4000 1100 1 0 0
+{
+T 4100 1150 5 8 1 1 0 0 1
+pinnumber=2
+T 4100 1050 5 8 0 1 0 2 1
+pinseq=3
+T 3950 1100 9 8 1 1 0 6 1
+pinlabel=(XTAL1 PCINT3 CLKI \_OC1B\_ ADC3) PB3
+T 3950 1100 5 8 0 1 0 8 1
+pintype=io
+}
+P 4300 1500 4000 1500 1 0 0
+{
+T 4100 1550 5 8 1 1 0 0 1
+pinnumber=7
+T 4100 1450 5 8 0 1 0 2 1
+pinseq=4
+T 3950 1500 9 8 1 1 0 6 1
+pinlabel=(SCK T0 INT0 PCINT2 USCK SCL ADC1) PB2
+T 3950 1500 5 8 0 1 0 8 1
+pintype=io
+}
+P 4300 1900 4000 1900 1 0 0
+{
+T 4100 1950 5 8 1 1 0 0 1
+pinnumber=6
+T 4100 1850 5 8 0 1 0 2 1
+pinseq=5
+T 3950 1900 9 8 1 1 0 6 1
+pinlabel=(MISO DO AIN1 OC0B OC1A PCINT1) PB1
+T 3950 1900 5 8 0 1 0 8 1
+pintype=io
+}
+P 4300 2300 4000 2300 1 0 0
+{
+T 4100 2350 5 8 1 1 0 0 1
+pinnumber=5
+T 4100 2250 5 8 0 1 0 2 1
+pinseq=6
+T 3950 2300 9 8 1 1 0 6 1
+pinlabel=(MOSI DI SDA AIN0 OC0A \_OC1A\_ AREF PCINT0) PB0
+T 3950 2300 5 8 0 1 0 8 1
+pintype=io
+}
+B 300 0 3700 2600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 3250 5 10 0 0 0 0 1
+description=8-bit RISC micro controller (Atmel)
+T 300 3450 5 10 0 0 0 0 1
+numslots=0
+T 300 3650 5 10 0 0 0 0 1
+author=Eyal Abraham <eyal.abrahamATgmail.com>
+T 300 2650 9 10 1 0 0 0 1
+ATtiny85

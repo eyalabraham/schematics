@@ -12,5 +12,6 @@ pc-xt
 webserver
 nixie-clock
 robot-arm
+analog-clock
 
 my-components & my-footprints
