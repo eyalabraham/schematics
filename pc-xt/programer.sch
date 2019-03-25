@@ -433,8 +433,3 @@ C 46700 46000 1 180 0 busripper-1.sym
 T 46700 45600 5 8 0 0 180 0 1
 device=none
 }
-C 44800 46000 1 180 0 busripper-1.sym
-{
-T 44800 45600 5 8 0 0 180 0 1
-device=none
-}
