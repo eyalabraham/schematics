@@ -14,7 +14,7 @@ nixie-clock
 robot-arm
 analog-clock
 nixie-clock
-vga (VGA card based on R6545E, not implemented here for reference)
-rpi-vga (VGA card based on Raspberry Pi interface to 8088 with a 8255)
+vga (VGA card based on R6545E, not implemented. here for reference only)
+rpi-vga (VGA card based on Raspberry Pi interface to 8088 two version: with 8255 and Z80-SIO)
 
 my-components & my-footprints
