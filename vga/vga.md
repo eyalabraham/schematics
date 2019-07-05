@@ -1,4 +1,4 @@
-# VGA color display car
+# VGA color display card
 Video display card will mimic MDA 80x25 8 color text mode on a standard 640x480 VGA.
 Use R6545E display address generator/controller (CRTC) with 4KB RAM.
 This solution was not implemented and it is here just for reference.
