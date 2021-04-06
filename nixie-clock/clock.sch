@@ -1,4 +1,4 @@
-v 20130925 2
+v 20200319 2
 C 40000 40000 0 0 0 title-B.sym
 T 50000 40900 9 10 1 0 0 0 1
 Raspberry Pi and AVR contoller (board 1)
@@ -17,13 +17,13 @@ device=HEADER40
 T 41400 49000 5 10 1 1 0 0 1
 refdes=J11
 }
-C 44400 40800 1 0 0 ATmega328p-1.sym
+C 44400 40900 1 0 0 ATmega328p-1.sym
 {
-T 44500 45600 5 10 0 0 0 0 1
+T 44500 45700 5 10 0 0 0 0 1
 footprint=DIP28N
-T 47400 45400 5 10 1 1 0 6 1
+T 47400 45500 5 10 1 1 0 6 1
 refdes=U2
-T 44500 46400 5 10 0 0 0 0 1
+T 44500 46500 5 10 0 0 0 0 1
 device=ATmega8
 }
 C 45000 45800 1 0 0 74244-1.sym
