@@ -1,0 +1,371 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega328-PU U1
+U 1 1 62FE70E8
+P 4450 3900
+F 0 "U1" H 3806 3946 50  0000 R CNN
+F 1 "ATmega328-PU" H 3806 3855 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 4450 3900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2400 4450 2400
+$Comp
+L power:+5V #PWR?
+U 1 1 62FE8A30
+P 4450 1850
+F 0 "#PWR?" H 4450 1700 50  0001 C CNN
+F 1 "+5V" H 4465 2023 50  0000 C CNN
+F 2 "" H 4450 1850 50  0001 C CNN
+F 3 "" H 4450 1850 50  0001 C CNN
+	1    4450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62FEAEA3
+P 4450 5400
+F 0 "#PWR?" H 4450 5150 50  0001 C CNN
+F 1 "GND" H 4455 5227 50  0000 C CNN
+F 2 "" H 4450 5400 50  0001 C CNN
+F 3 "" H 4450 5400 50  0001 C CNN
+	1    4450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 62FEBC3A
+P 3550 2850
+F 0 "C1" H 3665 2896 50  0000 L CNN
+F 1 "0.1uF" H 3665 2805 50  0000 L CNN
+F 2 "" H 3588 2700 50  0001 C CNN
+F 3 "~" H 3550 2850 50  0001 C CNN
+	1    3550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2700 3850 2700
+$Comp
+L power:GND #PWR?
+U 1 1 62FED157
+P 3550 3000
+F 0 "#PWR?" H 3550 2750 50  0001 C CNN
+F 1 "GND" H 3555 2827 50  0000 C CNN
+F 2 "" H 3550 3000 50  0001 C CNN
+F 3 "" H 3550 3000 50  0001 C CNN
+	1    3550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 62FEDDF3
+P 5750 3450
+F 0 "Y1" V 5796 3319 50  0000 R CNN
+F 1 "10MHz" V 5705 3319 50  0000 R CNN
+F 2 "" H 5750 3450 50  0001 C CNN
+F 3 "~" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3300 5750 3300
+Wire Wire Line
+	5050 3400 5350 3400
+Wire Wire Line
+	5350 3400 5350 3600
+Wire Wire Line
+	5350 3600 5750 3600
+$Comp
+L Device:C C2
+U 1 1 62FF394F
+P 6400 3300
+F 0 "C2" V 6148 3300 50  0000 C CNN
+F 1 "22pF" V 6239 3300 50  0000 C CNN
+F 2 "" H 6438 3150 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 62FF5F3C
+P 6550 3600
+F 0 "C3" V 6298 3600 50  0000 C CNN
+F 1 "22pF" V 6389 3600 50  0000 C CNN
+F 2 "" H 6588 3450 50  0001 C CNN
+F 3 "~" H 6550 3600 50  0001 C CNN
+	1    6550 3600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5750 3300 6250 3300
+Connection ~ 5750 3300
+Wire Wire Line
+	5750 3600 6400 3600
+Connection ~ 5750 3600
+$Comp
+L power:GND #PWR?
+U 1 1 62FFB290
+P 6700 3600
+F 0 "#PWR?" H 6700 3350 50  0001 C CNN
+F 1 "GND" H 6705 3427 50  0000 C CNN
+F 2 "" H 6700 3600 50  0001 C CNN
+F 3 "" H 6700 3600 50  0001 C CNN
+	1    6700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3300 6700 3300
+Wire Wire Line
+	6700 3300 6700 3600
+Connection ~ 6700 3600
+$Comp
+L Device:R_Small_US R1
+U 1 1 62FFE0AC
+P 5800 3950
+F 0 "R1" V 5595 3950 50  0000 C CNN
+F 1 "18K/2%" V 5686 3950 50  0000 C CNN
+F 2 "" H 5800 3950 50  0001 C CNN
+F 3 "~" H 5800 3950 50  0001 C CNN
+	1    5800 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 63003B64
+P 5700 4150
+F 0 "R2" H 5768 4196 50  0000 L CNN
+F 1 "1K/2%" H 5768 4105 50  0000 L CNN
+F 2 "" H 5700 4150 50  0001 C CNN
+F 3 "~" H 5700 4150 50  0001 C CNN
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3600 5250 3600
+Wire Wire Line
+	5250 3600 5250 3950
+Wire Wire Line
+	5250 3950 5700 3950
+Wire Wire Line
+	5700 3950 5700 4050
+Connection ~ 5700 3950
+$Comp
+L power:GND #PWR?
+U 1 1 63007521
+P 5700 4250
+F 0 "#PWR?" H 5700 4000 50  0001 C CNN
+F 1 "GND" H 5705 4077 50  0000 C CNN
+F 2 "" H 5700 4250 50  0001 C CNN
+F 3 "" H 5700 4250 50  0001 C CNN
+	1    5700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 6301F42D
+P 5300 4500
+F 0 "D2" H 5300 4400 50  0000 C CNN
+F 1 "1N914" H 5350 4300 50  0000 C CNN
+F 2 "" H 5300 4500 50  0001 C CNN
+F 3 "~" H 5300 4500 50  0001 C CNN
+	1    5300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4400 5450 4400
+Wire Wire Line
+	5450 4400 5450 4500
+Wire Wire Line
+	5150 4500 5050 4500
+Connection ~ 5450 4500
+Wire Wire Line
+	5450 4500 6850 4500
+Wire Wire Line
+	6850 3950 5900 3950
+$Comp
+L Connector:Conn_01x05_Female J1
+U 1 1 63034DB2
+P 7050 1950
+F 0 "J1" H 7078 1976 50  0000 L CNN
+F 1 "ICP" H 7078 1885 50  0000 L CNN
+F 2 "" H 7050 1950 50  0001 C CNN
+F 3 "~" H 7050 1950 50  0001 C CNN
+	1    7050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630359EB
+P 6750 2250
+F 0 "#PWR?" H 6750 2000 50  0001 C CNN
+F 1 "GND" H 6755 2077 50  0000 C CNN
+F 2 "" H 6750 2250 50  0001 C CNN
+F 3 "" H 6750 2250 50  0001 C CNN
+	1    6750 2250
+	1    0    0    -1  
+$EndComp
+Text Label 6600 2150 0    50   ~ 0
+GND
+Text Label 6600 1850 0    50   ~ 0
+MISO
+Wire Wire Line
+	5050 3200 6000 3200
+Text Label 6600 1950 0    50   ~ 0
+SCLK
+Wire Wire Line
+	5050 4200 5450 4200
+Wire Wire Line
+	5450 2050 5450 4200
+Wire Wire Line
+	5450 2050 6850 2050
+Text Label 6600 2050 0    50   ~ 0
+RST
+Wire Wire Line
+	6850 1950 6000 1950
+Wire Wire Line
+	6850 1850 5950 1850
+Wire Wire Line
+	5950 3100 5050 3100
+Wire Wire Line
+	5900 3000 5050 3000
+Wire Wire Line
+	6850 1750 5900 1750
+Text Label 6600 1750 0    50   ~ 0
+MOSI
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 63074EF0
+P 7050 3950
+F 0 "J2" H 7078 3926 50  0000 L CNN
+F 1 "Vbatt-sense (20VDC max.)" H 7078 3835 50  0000 L CNN
+F 2 "" H 7050 3950 50  0001 C CNN
+F 3 "~" H 7050 3950 50  0001 C CNN
+	1    7050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J3
+U 1 1 63075C66
+P 7050 4600
+F 0 "J3" H 7078 4626 50  0000 L CNN
+F 1 "S.BUS" H 7078 4535 50  0000 L CNN
+F 2 "" H 7050 4600 50  0001 C CNN
+F 3 "~" H 7050 4600 50  0001 C CNN
+	1    7050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6307E960
+P 6850 4050
+F 0 "#PWR?" H 6850 3800 50  0001 C CNN
+F 1 "GND" H 6855 3877 50  0000 C CNN
+F 2 "" H 6850 4050 50  0001 C CNN
+F 3 "" H 6850 4050 50  0001 C CNN
+	1    6850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6307F248
+P 6850 4700
+F 0 "#PWR?" H 6850 4450 50  0001 C CNN
+F 1 "GND" H 6855 4527 50  0000 C CNN
+F 2 "" H 6850 4700 50  0001 C CNN
+F 3 "" H 6850 4700 50  0001 C CNN
+	1    6850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 630800FB
+P 6550 4400
+F 0 "#PWR?" H 6550 4250 50  0001 C CNN
+F 1 "+5V" H 6565 4573 50  0000 C CNN
+F 2 "" H 6550 4400 50  0001 C CNN
+F 3 "" H 6550 4400 50  0001 C CNN
+	1    6550 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4400 6550 4600
+Wire Wire Line
+	6550 4600 6850 4600
+Text Notes 6750 7750 0    50   ~ 10
+Battery voltage sensor for FlySky i.BUS receiver
+Text Notes 7450 7850 0    50   ~ 10
+August 2022
+Text Notes 6600 7450 0    50   ~ 10
+1
+Text Notes 6700 7500 0    50   ~ 10
+1
+Text Notes 9900 7850 0    50   ~ 10
+1
+$Comp
+L Device:R_Small_US R3
+U 1 1 62FF2BA2
+P 5150 2250
+F 0 "R3" H 5218 2296 50  0000 L CNN
+F 1 "1K" H 5218 2205 50  0000 L CNN
+F 2 "" H 5150 2250 50  0001 C CNN
+F 3 "~" H 5150 2250 50  0001 C CNN
+	1    5150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2700 5150 2700
+Wire Wire Line
+	5150 2700 5150 2350
+$Comp
+L Device:LED D1
+U 1 1 62FF6001
+P 5150 2000
+F 0 "D1" V 5200 1800 50  0000 L CNN
+F 1 "LED" V 5100 1750 50  0000 L CNN
+F 2 "" H 5150 2000 50  0001 C CNN
+F 3 "~" H 5150 2000 50  0001 C CNN
+	1    5150 2000
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62FFB8BC
+P 5150 1850
+F 0 "#PWR?" H 5150 1700 50  0001 C CNN
+F 1 "+5V" H 5165 2023 50  0000 C CNN
+F 2 "" H 5150 1850 50  0001 C CNN
+F 3 "" H 5150 1850 50  0001 C CNN
+	1    5150 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2150 6750 2150
+Wire Wire Line
+	6750 2150 6750 2250
+Wire Wire Line
+	5900 1750 5900 3000
+Wire Wire Line
+	5950 1850 5950 3100
+Wire Wire Line
+	6000 1950 6000 3200
+Wire Wire Line
+	4450 1850 4450 2400
+Connection ~ 4450 2400
+$EndSCHEMATC
