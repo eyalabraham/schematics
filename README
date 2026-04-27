@@ -1,7 +1,7 @@
 *********************************************************
 * schematics                                            *
 *                                                       *
-*    a repository that tracks the electronic schematics *
+*    A repository that tracks the electronic schematics *
 *    I used in various projects.                        *
 *                                                       *
 *********************************************************
@@ -10,7 +10,7 @@ gEDA/gschem and Lepton EDA
 --------------------------
 balancing-robot
 pong
-pc-xt
+pc-xt -- Deprecated (see pc-xt-expansion in KiCad) 
 webserver
 nixie-clock
 robot-arm
@@ -22,5 +22,6 @@ rc buddy-box
 
 KiCad EDA
 --------------------------
-dragon 32 computer emulator
-
+dragon -- Dragon 32 computer emulator
+ibus-voltage-sensor -- iBus voltage sensor
+pc-xt-expansion -- PC-XT expansion BIOS, IDE, COM1, and PS2 keyboard interface
