@@ -17,7 +17,7 @@ robot-arm
 analog-clock
 nixie-clock
 vga (VGA card based on R6545E, not implemented. here for reference only)
-rpi-vga (VGA card based on Raspberry Pi interface to 8088 two version: with 8255 and Z80-SIO)
+rpi-vga -- Deprecated (see pc-xt-usart-usb in KiCad) 
 rc buddy-box
 
 KiCad EDA
@@ -25,3 +25,5 @@ KiCad EDA
 dragon -- Dragon 32 computer emulator
 ibus-voltage-sensor -- iBus voltage sensor
 pc-xt-expansion -- PC-XT expansion BIOS, IDE, COM1, and PS2 keyboard interface
+pc-xt-usart-usb -- PC-XT expansion card: Z80-SIO dual port USART, CH375 USB interface
+

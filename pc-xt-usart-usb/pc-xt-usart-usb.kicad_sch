@@ -1,0 +1,628 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "09b48cb9-6e73-4277-b9fa-3c5cd390ad50")
+	(paper "USLetter")
+	(title_block
+		(title "PC/XT clone")
+		(date "2026-06-09")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 176.53 137.16)
+		(end 248.92 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c104eef-c9ce-4875-9cc5-21cbcddc3337)
+	)
+	(rectangle
+		(start 80.01 35.56)
+		(end 259.08 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6539dfd6-e5f2-49af-a61c-2a59e260f503)
+	)
+	(text_box "U12\nLS244"
+		(exclude_from_sim no)
+		(at 104.14 71.12 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05e59891-51b8-4346-b873-de1a78841f38")
+	)
+	(text_box "U3\nLS244"
+		(exclude_from_sim no)
+		(at 162.56 118.11 0)
+		(size 22.86 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e6ff8bc-ac2e-477f-b7ce-6be403f0a4d5")
+	)
+	(text_box "U2\nLS244"
+		(exclude_from_sim no)
+		(at 195.58 118.11 0)
+		(size 25.4 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "333239d3-5d3a-4cc1-a2bd-da82154b2e7a")
+	)
+	(text_box "U4\nZ80-SIO/2"
+		(exclude_from_sim no)
+		(at 162.56 88.9 0)
+		(size 58.42 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41539c2d-fec7-4f46-8d71-5467ee64f275")
+	)
+	(text_box "U11\nLS139"
+		(exclude_from_sim no)
+		(at 114.3 83.82 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "463ce563-86c7-48b9-aa91-b437e7da8519")
+	)
+	(text_box "U6\nATtiny84"
+		(exclude_from_sim no)
+		(at 91.44 99.06 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c7e91de-3cb5-4cae-bba8-6c0444736a95")
+	)
+	(text_box "R1\nR2\n+C1\n+C2\n C3+\n+C4\n+C5"
+		(exclude_from_sim no)
+		(at 224.79 88.9 90)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "661fc665-ed2f-47ab-b166-b381594439b8")
+	)
+	(text_box "RS232\nCONN2"
+		(exclude_from_sim no)
+		(at 250.19 53.34 0)
+		(size 8.89 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "716de257-210b-40db-b35d-25ed164284dd")
+	)
+	(text_box "CH375"
+		(exclude_from_sim no)
+		(at 86.36 39.37 0)
+		(size 35.56 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b2003dc-1bef-45a6-b052-61336c427f53")
+	)
+	(text_box "U9\nLS04"
+		(exclude_from_sim no)
+		(at 138.43 99.06 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93780311-3fab-4403-8670-c8feeb206fa9")
+	)
+	(text_box "U13\nLS32"
+		(exclude_from_sim no)
+		(at 114.3 115.57 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96c12e84-52a3-459a-9ebe-4fcd8cac9164")
+	)
+	(text_box "D2\nR4\nD1\nR3"
+		(exclude_from_sim no)
+		(at 86.36 71.12 90)
+		(size 8.89 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a950a8a5-cd0e-4802-863b-d9fb4721f94a")
+	)
+	(text_box "U7\nXTAL 3.686400MHz"
+		(exclude_from_sim no)
+		(at 91.44 115.57 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae47b5bd-24de-4631-b00e-5952bb10e9b3")
+	)
+	(text_box "U10\nLS20"
+		(exclude_from_sim no)
+		(at 114.3 99.06 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cab58578-d279-4963-84e0-affaf8db503a")
+	)
+	(text_box "U8\nMAX232"
+		(exclude_from_sim no)
+		(at 224.79 76.2 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8ccaf44-9536-4dea-938e-1c1e787e9e6e")
+	)
+	(text_box "U5\nLS374"
+		(exclude_from_sim no)
+		(at 86.36 83.82 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1a85886-40d9-46e7-a91a-60b408f86ff2")
+	)
+	(text_box "CONN1"
+		(exclude_from_sim no)
+		(at 121.92 39.37 90)
+		(size 5.08 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5f1565b-7538-42d4-a85f-8ac249a56ad8")
+	)
+	(text_box "U14\nLS08"
+		(exclude_from_sim no)
+		(at 138.43 83.82 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbc49a14-3dfb-4fb4-9872-10f91e5e5ebb")
+	)
+	(text_box "U1\nLS245"
+		(exclude_from_sim no)
+		(at 228.6 118.11 0)
+		(size 24.13 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe5db4dc-454c-46dd-888a-a55e42292693")
+	)
+	(sheet
+		(at 25.4 63.5)
+		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "382bf7e2-62a3-4ced-9f1c-e37d1328c3e3")
+		(property "Sheetname" "Baud rate generator"
+			(at 25.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "baud-get.kicad_sch"
+			(at 25.4 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pc-xt-usart-usb"
+				(path "/09b48cb9-6e73-4277-b9fa-3c5cd390ad50"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 50.8)
+		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c5ebd67-4421-4a4d-baef-24d231d9207c")
+		(property "Sheetname" "Z80-SIO2"
+			(at 25.4 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "z80-sio.kicad_sch"
+			(at 25.4 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pc-xt-usart-usb"
+				(path "/09b48cb9-6e73-4277-b9fa-3c5cd390ad50"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 76.2)
+		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2aa3690-913e-4c54-b702-fc18e1b1f140")
+		(property "Sheetname" "ISA bus interface"
+			(at 25.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "isa-bub.kicad_sch"
+			(at 25.4 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pc-xt-usart-usb"
+				(path "/09b48cb9-6e73-4277-b9fa-3c5cd390ad50"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 38.1)
+		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ded5d430-b6bf-47d7-9ce5-f0cd048552cf")
+		(property "Sheetname" "IO address decoder"
+			(at 25.4 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io-address-decode.kicad_sch"
+			(at 25.4 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pc-xt-usart-usb"
+				(path "/09b48cb9-6e73-4277-b9fa-3c5cd390ad50"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 88.9)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f066e1b4-d20c-4fa9-b42f-864acf684184")
+		(property "Sheetname" "CH375"
+			(at 25.4 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ch375.kicad_sch"
+			(at 25.4 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pc-xt-usart-usb"
+				(path "/09b48cb9-6e73-4277-b9fa-3c5cd390ad50"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
